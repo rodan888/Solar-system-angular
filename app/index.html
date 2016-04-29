@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='MyApp'>
+<head>
+	<meta charset="UTF-8">
+	<title>Solar system</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/icon-moon/icon-css.css">
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<script src="libs/angular/angular.min.js"></script>
+	<script src="libs/angular/angular-route.min.js"></script>
+	<script src="libs/angular-jwt/angular-jwt.min.js"></script>
+	<script src="libs/jQuery/jquery-2.2.0.min.js"></script>
+	<script src="app.js"></script>	
+
+	<script src="components/directive/dropdown.js"></script>
+	<script src="components/factory/factory.js"></script>
+</head>
+
+<body>
+
+
+	<div class="wrap" data-ng-controller="mainCtrl" 
+	data-ng-style="{height: innerHeight + 'px'}">
+	<div class="stars"></div>
+	<div class="twinkling"></div>
+	<div class="clouds"></div>
+
+
+	<div class="content">	
+		<div class="container-fluid" class="planet">
+			<ng-view></ng-view>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>

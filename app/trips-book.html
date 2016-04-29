@@ -1,0 +1,79 @@
+<div class="row" data-ng-controller="bookCtrl">
+	<div class="col-md-2 widgets">
+		<div>
+			
+		</div>
+	</div>
+{{sortType}} 
+	<div class="col-md-10 trips-book">
+		<div class="w-table" data-ng-style="{height: innerHeight + 'px'}">
+			<div class="t-heading">
+				<span class="t-name"> 
+					Tabulka knihy jízd </span>
+				<span class="current-car"><i class="icon icon-truck"></i>
+					HAMM DV90VO (H1920277)
+				</span>
+			</div>
+			<table>
+				<tr class="t-header">
+					<th><i class="icon icon-config"></i></th>
+					<th data-ng-repeat="header in headers">
+						{{ header.title }}
+					</th>
+				</tr>
+				<tr class="t-sort">
+					<td></td>
+					<td data-ng-repeat="order in headers">
+						{{order.order}}
+						<button type="button" data-ng-click="sortType='{{order.order}}'; sortFnc()" data-sort-by>
+							<span 
+								class="icon icon-triangle-down"
+							 	data-ng-class="{'sort' : sortType=='{{order.order}}' && sortByS}">
+							</span>
+							<span 
+								class="icon icon-triangle-up"
+								data-ng-class="{'sort' : sortType=='{{order.order}}' && sortByB}">
+							</span>
+						</button>					
+					</td>
+
+				</tr>
+				<tr 
+					class="t-content" 
+					data-ng-repeat="item in list | orderBy : sortType : sortByB">
+					<td><i class="icon icon-pencil2"></i></td>
+					<td> {{item.time_start}} </td>
+					<td> {{item.place_start}} </td>
+					<td> {{item.trip_time}} </td>
+					<td> {{item.pause_count}} </td>
+					<td> {{item.time_to_next}} </td>
+					<td> {{item.distance_moved_tacho}} </td>
+					<td> {{item.mth}} </td>
+					<td> {{item.max_speed}} </td>
+					<td> {{item.avg_speed}} </td>
+					<td> {{item.tachometer_gps}} </td>
+					<td> {{item.tachometer_tacho}} </td>
+					<td> {{item.trip_type}} </td>
+					<td> {{item.driver}} </td>
+					<td> {{item.trip_purpose}} </td>
+					<td> {{item.accessory}} </td>
+					<td> {{item.fuel1_end}} </td>
+					<td> {{item.fuel2_end}} </td>
+					<td> {{item.fuel3_end}} </td>
+					<td> {{item.fuel_consumption}} </td>
+					<td> {{item.fuel_consumption_mth}} </td>
+					<td> {{item.fuel_consumption_flow}} </td>
+					<td> {{item.unloads}} </td>
+					<td> {{item.work_time}} </td>
+					<td> {{item.mth_idle}} </td>
+					<td> {{item.mth_load}} </td>
+					<td> {{item.mth_exceeded}} </td>
+					<td> {{item.mth_time}} </td>
+				</tr>
+			</table>	
+		</div>
+
+
+	</div>
+</div>
+

@@ -1,0 +1,50 @@
+@import "bourbon"
+@import "_vars.sass"
+
++font-face("lato-black", "../fonts/lato-black-webfont/lato-black-webfont", $file-formats: eot woff ttf)
++font-face("lato-harline", "../fonts/lato-harline-webfont/lato-harline-webfont", $file-formats: eot woff ttf)
++font-face("lato-light", "../fonts/lato-light-webfont/lato-light-webfont", $file-formats: eot woff ttf)
++font-face("lato-regular", "../fonts/lato-regular-webfont/lato-regular-webfont", $file-formats: eot woff ttf)
++font-face("lato-thin", "../fonts/lato-thin-webfont/lato-thin-webfont", $file-formats: eot woff ttf)
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "lato-light", sans-serif
+	overflow-x: hidden
+
+h1,h2,h3,h4,h5,h6
+	font-family: "OpenSansBold",sans-serif	
+
+h1,h2,h3,h4,h5,h6,ul,p
+	margin: 0
+	padding: 0
+	list-style-type: none
+
+input,textarea,button
+	outline: none
+	border: none
+button
+	background-color: transparent
+.main
+	// color: $main
+.clrp
+	padding: 0
+
+.content
+	position: absolute
+	width: 100%
+	height: 100%
+	top: 0
+	left: 0
+	z-index: 100
+
+@import "_bg.sass"
+@import "_sidemenu.sass"
+@import "_system.sass"
+
+@import "_saturn.sass"
+
+

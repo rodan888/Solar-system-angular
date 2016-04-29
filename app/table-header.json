@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Time start",
+    "order": "time_start"
+  },
+  {
+    "title": "Place start",
+    "order": "place_start"
+},
+{
+    "title": "trip time",
+    "order": "trip_time"
+}, 
+{
+    "title": "pause count",
+     "order": "pause_count"
+ }, 
+ {
+    "title": "time to next",
+     "order": "time_to_next"
+ },
+ {
+    "title": "distance moved tacho",
+    "order": "distance_moved_tacho"
+},
+{
+    "title": "mth",
+     "order": "mth"
+ },
+ {
+    "title": "max speed",
+     "order": "max_speed"
+ },
+ {
+    "title": "avg speed",
+    "order": "avg_speed"
+},
+{
+    "title": "tachometer gps",
+    "order": "tachometer_gps"
+},
+{
+    "title": "tachometer tacho",
+    "order": "tachometer_tacho"
+},
+{
+    "title": "trip type",
+    "order": "trip_type"
+},
+{
+    "title": "driver",
+    "order": "driver"
+},
+{
+    "title": "trip purpose",
+     "order": "trip_purpose"
+ },
+ {
+    "title": "accessory",
+    "order": "accessory"
+},
+{
+    "title": "fuel1 end",
+    "order": "fuel1_end"
+},
+{
+    "title": "fuel2 end",
+    "order": "fuel2_end"
+},
+{
+    "title": "fuel3 end",
+    "order": "fuel3_end"
+},
+{
+    "title": "fuel consumption",
+    "order": "fuel_consumption"
+},
+{
+    "title": "fuel consumption mth",
+    "order": "fuel_consumption_mth"
+},
+{
+    "title": "fuel consumption flow",
+    "order": "fuel_consumption_flow"
+},
+{
+    "title": "unloads",
+    "order": "unloads"
+},
+{
+    "title": "work time",
+    "order": "work_time"
+},
+{
+    "title": "mth idle",
+    "order": "mth_idle"
+},
+{
+    "title": "mth load",
+    "order": "mth_load"
+},
+{
+    "title": "mth exceeded",
+    "order": "mth_exceeded"
+},
+{
+    "title": "mth time",     
+    "order": "mth_time"  
+  }
+]

@@ -1,0 +1,179 @@
+{"menu":
+  [
+    {
+      "name":"Moje stránka",
+      "icon":"icon icon-home3",
+      "submenu": [
+       
+      ]
+    },
+    {
+      "name":"Kniha jízd",
+      "link": "book",
+      "icon":"icon icon-book",
+      "submenu": [
+       {
+                    "name": "Upravit jízdu"
+                },
+                {
+                    "name": "Zobrazit na mapě"
+                },
+                {
+                    "name": "Grafy"
+                },
+                {
+                    "name": "Detail jízdy"
+                },
+                {
+                    "name": "EagleEYE"
+                },
+                {
+                    "name": "Korekce tachometru"
+                },
+                {
+                    "name": "Exporty"
+                }
+      ]
+    },
+    {
+     "name":"Mapa",
+      "icon":"icon icon-map",
+      "submenu": [
+                {
+                    "name": "Detail jízdy"
+                },
+                {
+                    "name": "LPIS vrstva"
+                },
+                {
+                    "name": "Dispečink"
+                },
+                {
+                    "name": "Historie"
+                }
+      ]
+    },
+    {
+     "name":"Vozidla",
+      "icon":"icon icon-truck",
+      "submenu": [
+                {
+                    "name": "Přidat vozidlo"
+                },
+                {
+                    "name": "Upravit vozidlo"
+                },
+                {
+                    "name": "Smazat vozidlo"
+                },
+                {
+                    "name": "Skupiny"
+                },
+                {
+                    "name": "Aktualní poloha"
+                },
+                {
+                    "name": "Nastavení jednotky"
+                },
+                {
+                    "name": "Exporty"
+                }
+      ]
+    },
+    {
+     "name":"Statistiky",
+      "icon":"icon icon-stats-dots",
+      "submenu": [
+         {
+                    "name": "Grafy"
+                },
+                {
+                    "name": "Tisk"
+                },
+                {
+                    "name": "Exporty"
+                }
+      ]
+    },
+     {
+     "name":"Plánování",
+      "icon":"icon icon-calendar",
+      "submenu": [
+         {
+                    "name": "Přidat zakázku"
+                },
+                {
+                    "name": "Upravit zakázku"
+                },
+                {
+                    "name": "Smazat zakázku"
+                },
+                {
+                    "name": "Zákazníci"
+                }
+      ]
+    },
+      {
+     "name":"Nákupy",
+      "icon":"icon icon-cart",
+      "submenu": [
+        {
+                    "name": "Přidat nákup"
+                },
+                {
+                    "name": "Upravit nákup"
+                },
+                {
+                    "name": "Smazat nákup"
+                },
+                {
+                    "name": "Import dat"
+                },
+                {
+                    "name": "Exporty"
+                }
+      ]
+    },
+       {
+     "name":"Čerpací stanice",
+      "icon":"icon icon-droplet",
+      "submenu": [
+                {
+                    "name": "EagleEye"
+                },
+                {
+                    "name": "Exporty"
+                }
+      ]
+    },
+      {
+     "name":"Zákaznícké exporty",
+      "icon":"icon icon-office",
+      "submenu": [
+        {
+                    "name": "Uživatelé"
+                },
+                {
+                    "name": "Řidiči"
+                },
+                {
+                    "name": "Příslušenství"
+                },
+                {
+                    "name": "Účely jízdy"
+                },
+                {
+                    "name": "Střediska"
+                }
+      ]
+    },
+      {
+     "name":"Tikety",
+      "icon":"icon icon-hour-glass",
+      "submenu": [
+        
+      ]
+    }
+      
+  ]
+}
